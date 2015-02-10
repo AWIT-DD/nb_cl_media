@@ -1,0 +1,69 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Take</h1>
+
+<f:flashMessages renderMode="div" />
+
+<table  class="tx_awitclmediadb" >
+	<tr>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.start_time_tape" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.end_time_tape" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.endurance" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.description" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.operator" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.operator_text" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.record_date_time" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.codec_master" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.codec_mid" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.pic_size_master" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.pic_size_mid" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.pic_size_small" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.file_size_master" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.file_size_mid" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.file_size_small" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.file_name" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_take.codec_small" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{takes}" as="take">
+		<tr>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.startTimeTape -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.endTimeTape -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.endurance}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.description}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.operator}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.operatorText}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.recordDateTime -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.codecMaster}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.codecMid}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.picSizeMaster}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.picSizeMid}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.picSizeSmall}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.fileSizeMaster}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.fileSizeMid}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.fileSizeSmall}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.fileName}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{take : take}"> {take.codecSmall}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{take : take}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{take : take}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Take</f:link.action>
+</f:section>

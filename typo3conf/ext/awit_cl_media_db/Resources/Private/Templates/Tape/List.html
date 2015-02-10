@@ -1,0 +1,75 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Tape</h1>
+
+<f:flashMessages renderMode="div" />
+
+<table  class="tx_awitclmediadb" >
+	<tr>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.no_c_l" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.no_list" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.no_zep" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.last_editor" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.edit_time" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.digit_time" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.title_c_l" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.title_zep" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.description" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.description_zep" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.date_c_l" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.date_zep" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.date_on" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.digit" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.phys_place" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.phys_place_notice" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.manufact" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.nom_time" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.type" /></th>
+		<th><f:translate key="tx_awitclmediadb_domain_model_tape.ratio" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{tapes}" as="tape">
+		<tr>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.noCL}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.noList}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.noZep}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.lastEditor}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.editTime -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.digitTime -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.titleCL}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.titleZep}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.description}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.descriptionZep}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.dateCL -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.dateZep -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.dateOn -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.digit}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.physPlace}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.physPlaceNotice}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.manufact}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.nomTime}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.type}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{tape : tape}"> {tape.ratio}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{tape : tape}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{tape : tape}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Tape</f:link.action>
+</f:section>

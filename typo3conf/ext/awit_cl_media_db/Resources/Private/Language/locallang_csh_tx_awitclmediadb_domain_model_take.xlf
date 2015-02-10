@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-11-08T14:56:05Z" product-name="awit_cl_media_db">
+		<header/>
+		<body>
+			<trans-unit id="start_time_tape.description">
+				<source>startTimeTape</source>
+			</trans-unit>
+			<trans-unit id="end_time_tape.description">
+				<source>endTimeTape</source>
+			</trans-unit>
+			<trans-unit id="endurance.description">
+				<source>endurance</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="operator.description">
+				<source>operator</source>
+			</trans-unit>
+			<trans-unit id="operator_text.description">
+				<source>operatorText</source>
+			</trans-unit>
+			<trans-unit id="record_date_time.description">
+				<source>recordDateTime</source>
+			</trans-unit>
+			<trans-unit id="codec_master.description">
+				<source>codecMaster</source>
+			</trans-unit>
+			<trans-unit id="codec_mid.description">
+				<source>codecMid</source>
+			</trans-unit>
+			<trans-unit id="pic_size_master.description">
+				<source>picSizeMaster</source>
+			</trans-unit>
+			<trans-unit id="pic_size_mid.description">
+				<source>picSizeMid</source>
+			</trans-unit>
+			<trans-unit id="pic_size_small.description">
+				<source>picSizeSmall</source>
+			</trans-unit>
+			<trans-unit id="file_size_master.description">
+				<source>fileSizeMaster</source>
+			</trans-unit>
+			<trans-unit id="file_size_mid.description">
+				<source>fileSizeMid</source>
+			</trans-unit>
+			<trans-unit id="file_size_small.description">
+				<source>fileSizeSmall</source>
+			</trans-unit>
+			<trans-unit id="file_name.description">
+				<source>fileName</source>
+			</trans-unit>
+			<trans-unit id="codec_small.description">
+				<source>codecSmall</source>
+			</trans-unit>
+			<trans-unit id="tape.description">
+				<source>tape</source>
+			</trans-unit>
+			<trans-unit id="location.description">
+				<source>location</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

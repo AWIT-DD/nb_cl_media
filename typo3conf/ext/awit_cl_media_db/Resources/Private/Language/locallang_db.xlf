@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-11-08T14:56:05Z" product-name="awit_cl_media_db">
+		<header/>
+		<body>
+			<trans-unit id="tx_awitclmediadb_domain_model_take">
+				<source>Take</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.start_time_tape">
+				<source>Start Time on Tape</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.end_time_tape">
+				<source>End Time on Tape</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.endurance">
+				<source>Endurance</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.operator">
+				<source>Operator</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.operator_text">
+				<source>Operator Text</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.record_date_time">
+				<source>Record Date/Time</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.codec_master">
+				<source>Codec Master Video</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.codec_mid">
+				<source>Codec Midsize Video</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.pic_size_master">
+				<source>Pic Size Master</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.pic_size_mid">
+				<source>Pic Size Mid</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.pic_size_small">
+				<source>Pic Size Small</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.file_size_master">
+				<source>File Size Master</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.file_size_mid">
+				<source>File Size Mid</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.file_size_small">
+				<source>File Size Small</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.file_name">
+				<source>File Name</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.codec_small">
+				<source>Codec Small</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.tape">
+				<source>on Tape</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_take.location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape">
+				<source>Tape</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.no_c_l">
+				<source>Number CL</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.no_list">
+				<source>Number on List</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.no_zep">
+				<source>Number Zeppelin</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.last_editor">
+				<source>Last Editor</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.edit_time">
+				<source>Last Edit Time</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.digit_time">
+				<source>Digit Time</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.title_c_l">
+				<source>Title CL</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.title_zep">
+				<source>Title Zeppelin</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.description_zep">
+				<source>Description Zeppelin</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.date_c_l">
+				<source>Date CL</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.date_zep">
+				<source>Date Zeppelin</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.date_on">
+				<source>Date on Tape</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.digit">
+				<source>Digitalized</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.phys_place">
+				<source>Physical Place</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.phys_place_notice">
+				<source>Place Notice</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.manufact">
+				<source>Manufacturer</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.nom_time">
+				<source>Nominal Time</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.type">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_tape.ratio">
+				<source>Ratio</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_location.longitude">
+				<source>Longitude</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_location.latitude">
+				<source>Latitude</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_location.altitude">
+				<source>Altitude</source>
+			</trans-unit>
+			<trans-unit id="tx_awitclmediadb_domain_model_location.description">
+				<source>Description</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

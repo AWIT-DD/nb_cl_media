@@ -1,0 +1,49 @@
+
+plugin.tx_awitclmediadb {
+	view {
+		templateRootPath = {$plugin.tx_awitclmediadb.view.templateRootPath}
+		partialRootPath = {$plugin.tx_awitclmediadb.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_awitclmediadb.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_awitclmediadb.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_awitclmediadb._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-awit-cl-media-db table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-awit-cl-media-db table th {
+		font-weight:bold;
+	}
+
+	.tx-awit-cl-media-db table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)

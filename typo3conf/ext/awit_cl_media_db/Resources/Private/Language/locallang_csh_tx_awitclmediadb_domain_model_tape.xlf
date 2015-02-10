@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-11-08T14:56:05Z" product-name="awit_cl_media_db">
+		<header/>
+		<body>
+			<trans-unit id="no_c_l.description">
+				<source>noCL</source>
+			</trans-unit>
+			<trans-unit id="no_list.description">
+				<source>noList</source>
+			</trans-unit>
+			<trans-unit id="no_zep.description">
+				<source>noZep</source>
+			</trans-unit>
+			<trans-unit id="last_editor.description">
+				<source>lastEditor</source>
+			</trans-unit>
+			<trans-unit id="edit_time.description">
+				<source>editTime</source>
+			</trans-unit>
+			<trans-unit id="digit_time.description">
+				<source>digitTime</source>
+			</trans-unit>
+			<trans-unit id="title_c_l.description">
+				<source>titleCL</source>
+			</trans-unit>
+			<trans-unit id="title_zep.description">
+				<source>titleZep</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="description_zep.description">
+				<source>descriptionZep</source>
+			</trans-unit>
+			<trans-unit id="date_c_l.description">
+				<source>dateCL</source>
+			</trans-unit>
+			<trans-unit id="date_zep.description">
+				<source>dateZep</source>
+			</trans-unit>
+			<trans-unit id="date_on.description">
+				<source>dateOn</source>
+			</trans-unit>
+			<trans-unit id="digit.description">
+				<source>digit</source>
+			</trans-unit>
+			<trans-unit id="phys_place.description">
+				<source>physPlace</source>
+			</trans-unit>
+			<trans-unit id="phys_place_notice.description">
+				<source>physPlaceNotice</source>
+			</trans-unit>
+			<trans-unit id="manufact.description">
+				<source>manufact</source>
+			</trans-unit>
+			<trans-unit id="nom_time.description">
+				<source>nomTime</source>
+			</trans-unit>
+			<trans-unit id="type.description">
+				<source>type</source>
+			</trans-unit>
+			<trans-unit id="ratio.description">
+				<source>ratio</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

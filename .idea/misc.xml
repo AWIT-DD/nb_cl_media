@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="http://typo3.org/ns/fluid/ViewHelpers" location="$USER_HOME$/Downloads/fluid-6.2.0.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" />
+</project>
+
